@@ -56,8 +56,7 @@
           <a href="{{route('products.scholarship')}}" class="btn btn-primary">Show</a>
           <a href="{{route('products.edit', $pro->id)}}" class="btn btn-warning">Edit</a>
           <a href="{{route('products.delete', $pro->id)}}" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Delete
-</a>
+  Delete</a>
       </td>
 
       <td width = 300px>
