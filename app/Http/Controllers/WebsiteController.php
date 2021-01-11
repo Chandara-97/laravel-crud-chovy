@@ -57,7 +57,8 @@ class WebsiteController extends Controller
      */
     public function show(Website $website)
     {
-        //
+        $allweb= Website::latest()->get();
+        return view('source.website.show',compact('allweb'));
     }
 
     /**
