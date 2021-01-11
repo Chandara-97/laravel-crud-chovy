@@ -8,7 +8,7 @@
 
 @section('content')
     <a href="{{route('phd.create')}}" class="btn btn-success float-right">Add New Post</a>
-    <table class="table">
+    <table class="table" id="dataTable">
         <thead>
         <tr>
             <th scope="col">No</th>
@@ -100,4 +100,14 @@
 
 @section('js')
     <script> console.log('Hi!'); </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#dataTable').DataTable();
+        });
+    </script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
 @stop
