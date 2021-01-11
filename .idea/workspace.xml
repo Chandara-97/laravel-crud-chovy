@@ -2,63 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94affe33-22e1-4a2b-aad2-d3fa42b22895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/WebsiteController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Book.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Video.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Website.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_150448_create_books_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_155539_add_author_id_to_books_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_175128_create_websites_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_175315_add_author_id_to_websites_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_183032_create_videos_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_183115_add_author_id_to_videos_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610207085.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610207102.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610207104.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610207110.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610207121.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610207827.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610207940.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610207989.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610208063.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610208268.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610208654.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610209276.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610209392.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610209430.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610209452.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610209476.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610210555.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ScholarshipHighschoolImages/1610204444.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ScholarshipHighschoolImages/1610208674.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ScholarshipHighschoolImages/1610208699.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ScholarshipHighschoolImages/1610209180.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ScholarshipHighschoolImages/1610209309.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ScholarshipHighschoolImages/1610209364.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ScholarshipHighschoolImages/1610213427.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/WebsiteImages/1610216745.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/WebsiteImages/1610216800.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1610204132.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1610204583.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1610214015.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/book/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/book/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/book/update.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/video/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/video/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/video/update.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/website/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/website/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/website/update.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/adminlte.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/adminlte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/post/scholarship/bachelor/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/scholarship/bachelor/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/post/scholarship/highschool/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/scholarship/highschool/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/post/scholarship/master/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/scholarship/master/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/post/scholarship/phd/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/scholarship/phd/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,12 +152,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\laravel with non\Write Crud\laravel_crud_chorvy\resources\views\viewwebsite\scholarship" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\laravel with non\Write Crud\laravel_crud_chorvy\resources\views\admin\post\scholarship\bachelor" />
       <recent name="C:\xampp\htdocs\laravel with non\Write Crud\laravel_crud_chorvy\resources\views\backend\product" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel with non\Write Crud\laravel_crud_chorvy\resources\views\viewwebsite\scholarship" />
     </key>
   </component>
   <component name="RunManager">

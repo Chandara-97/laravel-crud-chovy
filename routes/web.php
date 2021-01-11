@@ -27,6 +27,7 @@ Route::prefix('/')->group(function(){
 
     });
 
+
 });
 Auth::routes();
 
