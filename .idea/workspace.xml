@@ -2,62 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94affe33-22e1-4a2b-aad2-d3fa42b22895" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/VideoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/WebsiteController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Book.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Video.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Website.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_150448_create_books_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_155539_add_author_id_to_books_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_175128_create_websites_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_175315_add_author_id_to_websites_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_183032_create_videos_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_09_183115_add_author_id_to_videos_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610207085.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610207102.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610207104.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610207110.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610207121.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610207827.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610207940.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610207989.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610208063.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610208268.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610208654.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610209276.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610209392.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610209430.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610209452.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610209476.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/BookImages/1610210555.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ScholarshipHighschoolImages/1610204444.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ScholarshipHighschoolImages/1610208674.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ScholarshipHighschoolImages/1610208699.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ScholarshipHighschoolImages/1610209180.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ScholarshipHighschoolImages/1610209309.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ScholarshipHighschoolImages/1610209364.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ScholarshipHighschoolImages/1610213427.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/WebsiteImages/1610216745.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/WebsiteImages/1610216800.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1610204132.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1610204583.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1610214015.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/book/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/book/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/book/update.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/video/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/video/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/video/update.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/website/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/website/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/source/website/update.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/user/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/user/update.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/source/book/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/adminlte.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/adminlte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/post/scholarship/bachelor/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/scholarship/bachelor/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/post/scholarship/highschool/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/scholarship/highschool/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/post/scholarship/master/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/scholarship/master/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/post/scholarship/phd/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/scholarship/phd/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/UserInterface/contactus.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/UserInterface/contactus.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/post/scholarship/bachelor/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/scholarship/bachelor/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/post/scholarship/phd/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/scholarship/phd/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/source/book/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/source/book/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +154,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/source/book" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -208,12 +165,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\laravel with non\Write Crud\laravel_crud_chorvy\resources\views\viewwebsite\scholarship" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel with non\Write Crud\laravel_crud_chorvy\resources\views\source\book" />
+      <recent name="C:\xampp\htdocs\laravel with non\Write Crud\laravel_crud_chorvy\resources\views\admin\user" />
       <recent name="C:\xampp\htdocs\laravel with non\Write Crud\laravel_crud_chorvy\resources\views\admin\post\scholarship\bachelor" />
       <recent name="C:\xampp\htdocs\laravel with non\Write Crud\laravel_crud_chorvy\resources\views\backend\product" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel with non\Write Crud\laravel_crud_chorvy\resources\views\viewwebsite\scholarship" />
     </key>
   </component>
   <component name="RunManager">
@@ -239,7 +198,9 @@
       <workItem from="1610106076743" duration="1190000" />
       <workItem from="1610173259842" duration="16810000" />
       <workItem from="1610204480173" duration="13551000" />
-      <workItem from="1610239097681" duration="2421000" />
+      <workItem from="1610239097681" duration="3953000" />
+      <workItem from="1610256567751" duration="4742000" />
+      <workItem from="1610335183811" duration="17860000" />
     </task>
     <servers />
   </component>
@@ -247,21 +208,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610182220148">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610380245517">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610182220148" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1610184018833">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610380245517" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1610355871442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1610184018833" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1610213997053">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1610355871442" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1610379976499">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1610213997053" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1610209064399">
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1610379976499" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1610380311121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1610209064399" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1610380311121" />
   </component>
 </project>

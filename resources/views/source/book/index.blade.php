@@ -34,7 +34,8 @@
                 <td>{{$books->author}}</td>
                 <td>{{$books->created_at}}</td>
                 <td width = 300px>
-                    
+
+                    <a href="{{route('book.show')}}" class="btn btn-warning">Show</a>
                     <a href="{{route('book.edit', $books->id)}}" class="btn btn-warning">Edit</a>
                     <a href="{{route('book.delete', $books->id)}}" class="btn btn-danger"data-tr="tr_{{$books->id}}"
                        data-toggle="confirmation"
