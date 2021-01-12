@@ -27,6 +27,16 @@ Route::prefix('/')->group(function(){
 
     });
 
+    Route::prefix('/source')->group(function(){
+        Route::get('/book',[\App\Http\Controllers\BookController::class,'show']);
+        Route::get('/video',[\App\Http\Controllers\VideoController::class,'show']);
+        Route::get('/website',[\App\Http\Controllers\WebsiteController::class,'show']);
+        // Route::get('/phd',[\App\Http\Controllers\ScholarshipphdController::class,'show']);
+
+        // Route::get('/',[\App\Http\Controllers\ScholarshipPhdController::class,'allcontent']);
+
+    });
+
 });
 Auth::routes();
 
@@ -95,7 +105,7 @@ Route::prefix('/source')->group(function(){
     Route::get("/",[\App\Http\Controllers\BookController::class,'index'])->name('book.index');
     Route::prefix('/book')->group(function(){
         Route::get('/index',[\App\Http\Controllers\BookController::class,'index'])->name('book.index');
-        // Route::get('/show',[\App\Http\Controllers\ScholarshipHighschoolController::class,'show'])->name('highschool.show');
+        Route::get('/show',[\App\Http\Controllers\BookController::class,'show'])->name('book.show');
         Route::get('/create',[\App\Http\Controllers\BookController::class,'create'])->name('book.create');
         Route::post('/store',[\App\Http\Controllers\BookController::class,'store'])->name('book.store');
         Route::get('/edit/{id}',[\App\Http\Controllers\BookController::class,'edit'])->name('book.edit');
@@ -105,7 +115,7 @@ Route::prefix('/source')->group(function(){
 
     Route::prefix('/website')->group(function(){
         Route::get('/index',[\App\Http\Controllers\WebsiteController::class,'index'])->name('website.index');
-        // Route::get('/show',[\App\Http\Controllers\ScholarshipHighschoolController::class,'show'])->name('highschool.show');
+        Route::get('/show',[\App\Http\Controllers\WebsiteController::class,'show'])->name('website.show');
         Route::get('/create',[\App\Http\Controllers\WebsiteController::class,'create'])->name('website.create');
         Route::post('/store',[\App\Http\Controllers\WebsiteController::class,'store'])->name('website.store');
         Route::get('/edit/{id}',[\App\Http\Controllers\WebsiteController::class,'edit'])->name('website.edit');
@@ -115,7 +125,7 @@ Route::prefix('/source')->group(function(){
 
     Route::prefix('/video')->group(function(){
         Route::get('/index',[\App\Http\Controllers\VideoController::class,'index'])->name('video.index');
-        // Route::get('/show',[\App\Http\Controllers\ScholarshipHighschoolController::class,'show'])->name('highschool.show');
+        Route::get('/show',[\App\Http\Controllers\VideoController::class,'show'])->name('video.show');
         Route::get('/create',[\App\Http\Controllers\VideoController::class,'create'])->name('video.create');
         Route::post('/store',[\App\Http\Controllers\VideoController::class,'store'])->name('video.store');
         Route::get('/edit/{id}',[\App\Http\Controllers\VideoController::class,'edit'])->name('video.edit');

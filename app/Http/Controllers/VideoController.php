@@ -57,7 +57,8 @@ class VideoController extends Controller
      */
     public function show(Video $video)
     {
-        //
+        $allvid= Video::latest()->get();
+        return view('source.video.show',compact('allvid'));
     }
 
     /**

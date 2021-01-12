@@ -27,13 +27,12 @@
                             <span class="btn  btn-white rounded-pill ">ប្រភពចំណេះដឹង</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{url('/scholarship/highschool')}}"><span class="btn  btn-white rounded-pill ">វិទ្យាល័យ</span></a>
+                            <a class="dropdown-item" href="{{url('/source/book')}}"><span class="btn  btn-white rounded-pill ">Book</span></a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="{{url('/scholarship/bachelor')}}"><span class="btn  btn-white rounded-pill ">បរិញ្ញាបត្រ</span></a>
+                            <a class="dropdown-item" href="{{url('/source/video')}}"><span class="btn  btn-white rounded-pill ">Video</span></a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="{{url('/scholarship/master')}}"><span class="btn  btn-white rounded-pill ">អនុបណ្ឌិត</span></a>
+                            <a class="dropdown-item" href="{{url('/source/website')}}"><span class="btn  btn-white rounded-pill ">Website</span></a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="{{url('/scholarship/phd')}}"><span class="btn  btn-white rounded-pill ">បណ្ឌិត</span></a>
                         </div>
                     </li>
 					<li class="nav-item"id="3">
