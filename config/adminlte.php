@@ -249,6 +249,11 @@ return [
             'icon' => 'fas fa-fw fa-user',
         ],
         [
+            'text' => 'All Users',
+            'url'  => 'admin/user/index',
+            'icon' => 'fas fa-users',
+        ],
+        [
             'text' => 'change_password',
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',

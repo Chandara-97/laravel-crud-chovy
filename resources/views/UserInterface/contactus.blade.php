@@ -17,7 +17,7 @@
               </div>
               <div class="col-2"></div>
           </div>
-          
+
           <div class="row">
              <div class="col"></div>
              <div class="col-2">
@@ -50,25 +50,25 @@
           <div class="col-4"></div>
        </div><br><br><br>
          <div class="container">
-              <form action="">
+              <form action="{{route('contact.store')}}">
                   <div class="form-group">
                           <div>
                               <label class="move-up" for="name"> Full Name </label>
-                              <input type="text" class="form-control">
+                              <input type="text" name="name"class="form-control">
                           </div>
-              
+
                           <div>
                                   <label for="name"> Email  </label>
-                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                  <input type="email" name="email"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                           </div>
-              
+
                           <div>
                               <label for="name"> Your Message </label>
-                              <textarea name="Message" id="Message" class="form-control"></textarea>
+                              <textarea name="message" id="Message" class="form-control"></textarea>
                           </div>
                               <input type="submit" value="submit" class="btn btn-primary">
                   </div>
-          </form> 
+          </form>
       </div><br><br><br>
 
 @endsection

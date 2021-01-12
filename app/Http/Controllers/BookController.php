@@ -57,7 +57,12 @@ class BookController extends Controller
      */
     public function show(Book $book)
     {
-        //
+<<<<<<< HEAD
+        $allbook = Book::latest()->get();
+=======
+        $allbook= Book::latest()->get();
+>>>>>>> e71fe874cc3a5c6b5678623c0d6260f7bc263041
+        return view('source.book.show',compact('allbook'));
     }
 
     /**
@@ -126,4 +131,4 @@ class BookController extends Controller
     }
 }
 
-   
+

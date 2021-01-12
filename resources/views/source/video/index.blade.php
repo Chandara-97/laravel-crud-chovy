@@ -33,7 +33,7 @@
                 <td>{{$vids->author}}</td>
                 <td>{{$vids->created_at}}</td>
                 <td width = 300px>
-                    
+                    <a href="{{route('video.show')}}" class="btn btn-primary">show</a>
                     <a href="{{route('video.edit', $vids->id)}}" class="btn btn-warning">Edit</a>
                     <a href="{{route('video.delete', $vids->id)}}" class="btn btn-danger"data-tr="tr_{{$vids->id}}"
                        data-toggle="confirmation"

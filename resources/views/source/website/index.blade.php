@@ -33,7 +33,7 @@
                 <td>{{$webs->author}}</td>
                 <td>{{$webs->created_at}}</td>
                 <td width = 300px>
-                    
+                    <a href="{{route('website.show')}}" class="btn btn-primary">show</a>
                     <a href="{{route('website.edit', $webs->id)}}" class="btn btn-warning">Edit</a>
                     <a href="{{route('website.delete', $webs->id)}}" class="btn btn-danger"data-tr="tr_{{$webs->id}}"
                        data-toggle="confirmation"

@@ -57,7 +57,8 @@ class VideoController extends Controller
      */
     public function show(Video $video)
     {
-        //
+        $allvid= Video::latest()->get();
+        return view('source.video.show',compact('allvid'));
     }
 
     /**
@@ -91,7 +92,7 @@ class VideoController extends Controller
             $img = $request->file('image');
             $extension = $img->getClientOriginalExtension();
             $img_name = time().'.'.$img->extension();
-            $img->move(public_path('WebsiteImages'),$img_name);
+            $img->move(public_path('VideoImages'),$img_name);
             $allvid->image = $img;
             $allvid_arr = $request->toArray();
             $allvid_arr['image'] = $img_name;
