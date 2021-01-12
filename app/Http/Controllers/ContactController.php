@@ -35,11 +35,13 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
+        view('UserInterface.contactus');
         $contact = new Contact;
         $contact->name = $request->input('name');
-        $contact->econtact = $request->input('econtact');
+        $contact->email = $request->input('email');
         $contact->message = $request->input('message');
         $contact->save();
+        return redirect()->route('contact.create')->with('success', 'Your Message Has Been Sent successfully.');
     }
 
     /**

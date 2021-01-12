@@ -23,7 +23,10 @@
             <th scope="col">Action</th>
         </tr>
         </thead>
+        <?php $k=0;?>
         @foreach($highschools as $highschool)
+{{--            <?php $k++;?>--}}
+{{--            @if($k<3)--}}
             <tr>
                 <td>{{$i++}}</td>
                 <td>{{$highschool->id}}</td>
@@ -52,6 +55,7 @@
                        data-placement="left" data-singleton="true">Delete</a>
                 </td>
             </tr>
+{{--               // @endif--}}
         @endforeach
     </table>
     <script type="text/javascript">

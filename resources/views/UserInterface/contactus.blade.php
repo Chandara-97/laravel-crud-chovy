@@ -49,9 +49,15 @@
           <div class="col-4"><span class="btn btn-primary text-white text-center"><h2>OR</h2></span></div>
           <div class="col-4"></div>
        </div><br><br><br>
+@if(Session::has('success'))
+    <div class="alert alert-success">
+        {{ Session::get('success') }}
+    </div>
+@endif
          <div class="container">
-              <form action="{{route('contact.store')}}">
+              <form action="{{route('contact.store')}}" method="post">
                   <div class="form-group">
+                      @csrf
                           <div>
                               <label class="move-up" for="name"> Full Name </label>
                               <input type="text" name="name"class="form-control">
