@@ -19,10 +19,10 @@
                   <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
                       <h3 class="f-title f_600 t_color f_size_18">កម្មវិធីដែលកំពុងពេញនិយម</h3>
                       <ul class="list-unstyled f_list">
-                          <li><a href="#">ថ្នាក់បណ្ឌិត</a></li>
-                          <li><a href="#">ថ្នាក់អនុបណ្ឌិត</a></li>
-                          <li><a href="#">ថ្នាក់បរិញ្ញាប័ត្រ</a></li>
-                          <li><a href="#">ថ្នាក់មធ្យមសិក្សា</a></li>
+                          <li><a href="ScholarshipPhd.php">ថ្នាក់បណ្ឌិត</a></li>
+                          <li><a href="ScholarshipMaster.php">ថ្នាក់អនុបណ្ឌិត</a></li>
+                          <li><a href="ScholarshipBachelor.php">ថ្នាក់បរិញ្ញាប័ត្រ</a></li>
+                          <li><a href="ScholarshipHighschool.php">ថ្នាក់មធ្យមសិក្សា</a></li>
                           <li><a href="#">កម្មវិធីផ្លាស់ប្តូរការសិក្សា</a></li>
                       </ul>
                   </div>
@@ -31,10 +31,10 @@
                   <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
                       <h3 class="f-title f_600 t_color f_size_18">ប្រព័ន្ធទំនាក់ទំនង</h3>
                       <div class="f_social_icon">
-                          <a href="#" class="fab fa-facebook"></a>
-                          <a href="#" class="fab fa-twitter"></a>
-                          <a href="#" class="fab fa-linkedin"></a>
-                          <a href="#" class="fab fa-pinterest"></a>
+                          <a href="https://web.facebook.com/lynary1803/" class="fab fa-facebook"></a>
+                          <a href="https://twitter.com/narythehappy" class="fab fa-twitter"></a>
+                          <a href="https://www.linkedin.com/in/nary-ly-5408841a6/" class="fab fa-linkedin"></a>
+                          <a href="https://www.pinterest.com/ly4373/" class="fab fa-pinterest"></a>
                       </div>
                   </div>
               </div>
