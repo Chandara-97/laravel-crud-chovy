@@ -8,8 +8,7 @@
                       <h3 class="f-title f_600 t_color f_size_18">ទំនាក់ទំនង</h3>
                       <p>ដើម្បីទទួលបានព័ត៌មានអាហារូបករណ៍ថ្មីៗ !!</p>
                       <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
-                          <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
-                          <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                          
                           <p class="mchimp-errmessage" style="display: none;"></p>
                           <p class="mchimp-sucmessage" style="display: none;"></p>
                       </form>
