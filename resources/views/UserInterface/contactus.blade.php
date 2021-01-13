@@ -55,11 +55,10 @@
     </div>
 @endif
          <div class="container">
-<<<<<<< HEAD
-              <form action="{{route('contact.store')}}" method="post">
-=======
+
+              <form action="/contactus" method="post">
+
               <form action="">
->>>>>>> ce216ec359f6f0abe5700f2764c8c04586b10c37
                   <div class="form-group">
                       @csrf
                           <div>

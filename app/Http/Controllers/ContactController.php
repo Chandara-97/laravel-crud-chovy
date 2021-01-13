@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Contact;
 use Illuminate\Http\Request;
+use App\Mail\TestMail;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -25,6 +27,33 @@ class ContactController extends Controller
     public function create()
     {
         return view('UserInterface.contactus');
+    }
+
+//    public function data()
+//    {
+//        $users = Mail::all();
+//        return view('admin.contact')->with('users', $users);
+//    }
+
+    public function send(Request $request)
+    {
+        $mail = new Contact;
+        $mail->name = $request->input('name');
+        $mail->email = $request->input('email');
+        $mail->message = $request->input('message');
+        $mail->save();
+
+        $data = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'message' => $request->message
+        ];
+
+        \Mail::to('chandaraleav97@gmail.com')->send(new TestMail($data));
+
+        //return view('UserInterface.contactus');
+        return redirect()->route('contact.create')->with('success', 'Your Message Has Been Sent successfully.');
+
     }
 
     /**

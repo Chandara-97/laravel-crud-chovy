@@ -231,10 +231,10 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'pages',
-            'url'         => 'admin/pages',
-            'icon'        => 'far fa-fw fa-file',
-            'label'       => 4,
+            'text'        => 'HomePage',
+            'url'         => '/',
+            'icon'        => 'fas fa-home',
+            'icon_color'        => 'primary',
             'label_color' => 'success',
         ],
         ['header' => 'account_settings'],
@@ -242,16 +242,19 @@ return [
             'text' => 'profile',
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-user',
+            'icon_color'        => 'primary',
         ],
         [
             'text' => 'All Users',
             'url'  => 'admin/user/index',
             'icon' => 'fas fa-users',
+            'icon_color'        => 'primary',
         ],
         [
             'text' => 'change_password',
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
+            'icon_color'        => 'primary',
         ],
 
         [
@@ -271,22 +274,31 @@ return [
         [
             'text'    => 'Scholarship',
             'icon'    => 'fas fa-rss-square',
+            'icon_color'        => 'primary',
             'submenu' => [
                 [
                     'text' => 'High school',
                     'url'  => 'admin/scholarship/highschool/index',
+                    'icon'    => 'far fa-hand-point-right',
+                    'icon_color'        => 'warning',
                 ],
                 [
                     'text' => 'Bachelor',
                     'url'  => 'admin/scholarship/bachelor/index',
+                    'icon'    => 'far fa-hand-point-right',
+                    'icon_color'        => 'warning',
                 ],
                 [
                     'text' => 'Master',
                     'url'  => 'admin/scholarship/master/index',
+                    'icon'    => 'far fa-hand-point-right',
+                    'icon_color'        => 'warning',
                 ],
                 [
                     'text' => 'PhD',
                     'url'  => 'admin/scholarship/phd/index',
+                    'icon'    => 'far fa-hand-point-right',
+                    'icon_color'        => 'warning',
                 ],
             ],
         ],
@@ -294,18 +306,25 @@ return [
         [
             'text'    => 'Source',
             'icon'    => 'fas fa-rss-square',
+            'icon_color'        => 'primary',
             'submenu' => [
                 [
                     'text' => 'Book',
                     'url'  => 'source/book/index',
+                    'icon'    => 'far fa-hand-point-right',
+                    'icon_color'        => 'warning',
                 ],
                 [
                     'text' => 'Website',
                     'url'  => 'source/website/index',
+                    'icon'    => 'far fa-hand-point-right',
+                    'icon_color'        => 'warning',
                 ],
                 [
                     'text' => 'Video',
                     'url'  => 'source/video/index',
+                    'icon'    => 'far fa-hand-point-right',
+                    'icon_color'        => 'warning',
                 ],
             ],
         ],

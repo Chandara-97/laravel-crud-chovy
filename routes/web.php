@@ -6,19 +6,19 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use PHPUnit\TextUI\XmlConfiguration\Group;
 
-//Route::get('/homeallcontent',function(){
-//    return view('HomeUserInterface.scholar_highschool');
+
+
+//Route::get('/homeallcontent',[\App\Http\Controllers\HomeInterfaceController::class,'scholar_highschool'],function(){
+//    return view('HomeUserInterface.allcontent');
 //});
-Route::get('/homeallcontent',[\App\Http\Controllers\HomeInterfaceController::class,'scholar_highschool'],function(){
-    return view('HomeUserInterface.allcontent');
-});
 
 Route::prefix('/')->group(function(){
     Route::get('/',[\App\Http\Controllers\HomeInterfaceController::class,'scholar_highschool'],function(){
         return view('HomeUserInterface.allcontent');
     });
-    Route::get('/contactus',[\App\Http\Controllers\ContactController::class,'create'])->name('contact.create');
-    Route::post('/contactus',[\App\Http\Controllers\ContactController::class,'store'])->name('contact.store');
+    Route::get('/home',[\App\Http\Controllers\HomeInterfaceController::class,'scholar_highschool'],function(){
+        return view('HomeUserInterface.allcontent');
+    });
 
     Route::get('/source',function(){
         Route::get('/highschool',[\App\Http\Controllers\ScholarshipHighschoolController::class,'show']);
@@ -31,10 +31,11 @@ Route::prefix('/')->group(function(){
         Route::get('/bachelor',[\App\Http\Controllers\ScholarshipBachelorController::class,'show']);
         Route::get('/master',[\App\Http\Controllers\ScholarshipmasterController::class,'show']);
         Route::get('/phd',[\App\Http\Controllers\ScholarshipphdController::class,'show']);
-
-        //Route::get('/',[\App\Http\Controllers\ScholarshipPhdController::class,'allcontent']);
-
     });
+    Route::get('/contactus',function(){
+        return view('UserInterface.contactus');
+    })->name('contact.create');
+    Route::post('/contactus', [\App\Http\Controllers\ContactController::class, 'send'])->name('contact.send');
 
 });
 Auth::routes();
