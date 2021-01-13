@@ -27,9 +27,9 @@
                             <span class="btn  btn-white rounded-pill ">ប្រភពចំណេះដឹង</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{url('/source/book')}}"><span class="btn  btn-white rounded-pill ">សៀវភៅ</span></a>
+                            <a class="dropdown-item" href="{{url('/source/book')}}"><span class="btn  btn-white rounded-pill ">Book</span></a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="{{url('/source/video')}}"><span class="btn  btn-white rounded-pill ">វីដេអូ</span></a>
+                            <a class="dropdown-item" href="{{url('/source/video')}}"><span class="btn  btn-white rounded-pill ">Video</span></a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="{{url('/source/website')}}"><span class="btn  btn-white rounded-pill ">website</span></a>
                             <div class="dropdown-divider"></div>

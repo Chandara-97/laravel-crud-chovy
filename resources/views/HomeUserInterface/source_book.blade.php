@@ -12,17 +12,17 @@
 
         <div class="row">
             <div class="col"></div>
-            @foreach($books as $book)
+            @foreach($allbook as $books)
                 <?php $k++;?>
                 @if($k<4)
             <div class="card col-3 " data-aos="flip-up" style="width: 18rem;">
                 <a href="#" target="_blank">
-                    <img src="{{asset("BookImages/".$book->image)}}" class="card-img-top img-thumbnail" alt="BookImage">
+                    <img src="{{asset("BookImages/".$books->image)}}" class="card-img-top img-thumbnail" alt="BookImage">
                 </a>
                 <div class="card-body">
                     <p class="card-text">
                         <?php
-                        echo $book->description;
+                        echo $books->description;
                         ?>
                     </p>
                 </div>

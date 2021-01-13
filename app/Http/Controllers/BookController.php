@@ -59,9 +59,6 @@ class BookController extends Controller
     {
 
         $allbook = Book::latest()->get();
-
-        $allbook= Book::latest()->get();
-
         return view('source.book.show',compact('allbook'));
     }
 
