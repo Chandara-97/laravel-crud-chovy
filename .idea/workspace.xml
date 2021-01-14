@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94affe33-22e1-4a2b-aad2-d3fa42b22895" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
       <change afterPath="$PROJECT_DIR$/resources/views/admin/user/index.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/admin/user/update.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/source/book/show.blade.php" afterDir="false" />
@@ -16,6 +19,7 @@
       <change beforePath="$PROJECT_DIR$/resources/views/admin/post/scholarship/phd/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/scholarship/phd/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/source/book/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/source/book/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+>>>>>>> c2bca3a316f49361718e658a234c77e9e3ce7aab
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

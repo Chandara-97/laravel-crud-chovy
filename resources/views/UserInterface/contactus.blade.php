@@ -49,9 +49,18 @@
 
           <div class="col-4"></div>
        </div><br><br><br>
+@if(Session::has('success'))
+    <div class="alert alert-success">
+        {{ Session::get('success') }}
+    </div>
+@endif
          <div class="container">
+
+              <form action="/contactus" method="post">
+
               <form action="">
                   <div class="form-group">
+                      @csrf
                           <div>
                               <label class="move-up" for="name"> Full Name </label>
                               <input type="text" name="name"class="form-control">

@@ -13,6 +13,11 @@ class UserController extends Controller
 
         return view('admin.user.index',compact('users'))->with('i', (request()->input('page', 1) - 1) * 5);;;
     }
+    public function viewprofile($id){
+        $admins = User::find($id)->where();
+
+        return view('admin.user.index',compact('admins'))->with('i', (request()->input('page', 1) - 1) * 5);;;
+    }
     public function create(){
 
     }

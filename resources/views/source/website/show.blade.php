@@ -1,6 +1,6 @@
 @extends('layout.bone')
 
-@section('title','ប្រភពចំណេះដឹង)
+@section('title','ប្រភពចំណេះដឺង')
 
 
 @section('style')
@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-xl-3 col-lg-2 col-md-2 col-2"></div>
         <div  data-aos="fade-left" class="btn btn-primary rounded-pill col" >
-            <h3 class="header " class="btn btn-white rounded-circle animate__animated animate__bounce" data-aos="animate text on scroll">វីដេអូ
+            <h3 class="header " class="btn btn-white rounded-circle animate__animated animate__bounce" data-aos="animate text on scroll">អនុវិទ្យាល័យនិងវិទ្យាល័យ
                 <sup><img src="image/new.jpg" alt="new" class="new rounded-circle animate__animated animate__swing" style="width: 7%;"></sup>
             </h3>
         </div>
@@ -20,7 +20,7 @@
         <section class="card rounded card-post-size" data-aos="flip-right">
             <div class="row">
                 <div class="col-4"></div>
-                <div class="col-3"><img src="{{asset("WebsiteImages/".webs->image)}}" class="imagepost" alt="imagepost"></div>
+                <div class="col-3"><img src="{{asset("WebsiteImages/".$webs->image)}}" class="imagepost" alt="imagepost"></div>
                 <div class="col-4"></div>
             </div>
 

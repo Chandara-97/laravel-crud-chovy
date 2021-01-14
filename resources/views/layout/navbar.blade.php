@@ -6,7 +6,7 @@
 				<ul class="navbar-nav ml-auto">
 
 				<li class="nav-item " id="1">
-						<a class="nav-link"  href="{{url('/index')}}"><span class="btn btn-white rounded-pill">ទំព័រដើម</span> </a>
+						<a class="nav-link"  href="{{url('/')}}"><span class="btn btn-white rounded-pill">ទំព័រដើម</span> </a>
 					</li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -27,9 +27,9 @@
                             <span class="btn  btn-white rounded-pill ">ប្រភពចំណេះដឹង</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{url('/source/book')}}"><span class="btn  btn-white rounded-pill ">សៀវភៅ</span></a>
+                            <a class="dropdown-item" href="{{url('/source/book')}}"><span class="btn  btn-white rounded-pill ">Book</span></a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="{{url('/source/video')}}"><span class="btn  btn-white rounded-pill ">វីដេអូ</span></a>
+                            <a class="dropdown-item" href="{{url('/source/video')}}"><span class="btn  btn-white rounded-pill ">Video</span></a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="{{url('/source/website')}}"><span class="btn  btn-white rounded-pill ">website</span></a>
                             <div class="dropdown-divider"></div>

@@ -23,7 +23,9 @@
             <th scope="col">Action</th>
         </tr>
         </thead>
+        <?php $k=0;?>
         @foreach($highschools as $highschool)
+
          <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -41,6 +43,7 @@
     </div>
   </div>
 </div>
+
 
             <tr>
                 <td>{{$i++}}</td>
@@ -63,6 +66,7 @@
   Delete</a>
                 </td>
             </tr>
+{{--               // @endif--}}
         @endforeach
     </table>
     <script type="text/javascript">
