@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @include('layout.style_css')
 @section('content')
+@include('layout.navbar')
 @include('layout.background_carousel')
 
 <div class="container">

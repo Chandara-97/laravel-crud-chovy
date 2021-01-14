@@ -24,6 +24,24 @@
         </tr>
         </thead>
         @foreach($bachelors as $bachelor)
+
+         <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Are you sure you want to delete?</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      
+        <a href="{{route('bachelor.delete', $bachelor->id)}}">Delete</a>
+      </div>
+    </div>
+  </div>
+</div>
             <tr>
                 <td>{{++$i}}</td>
                 <td>{{$bachelor->id}}</td>
@@ -39,17 +57,10 @@
 {{--                <td>{{$bachelor->author_id}}</td>--}}
                 <td>{{$bachelor->created_at}}</td>
                 <td width = 300px>
-                    <a href="{{route('bachelor.show')}}" class="btn btn-primary">show</a>
+                    <a href="{{route('bachelor.show')}}" class="btn btn-primary">Show</a>
                     <a href="{{route('bachelor.edit', $bachelor->id)}}" class="btn btn-warning">Edit</a>
-                    <a href="{{route('bachelor.delete', $bachelor->id)}}" class="btn btn-danger"data-tr="tr_{{$bachelor->id}}"
-                       data-toggle="confirmation"
-                       data-btn-ok-label="Delete" data-btn-ok-icon="fa fa-remove"
-                       data-btn-ok-class="btn btn-sm btn-danger"
-                       data-btn-cancel-label="Cancel"
-                       data-btn-cancel-icon="fa fa-chevron-circle-left"
-                       data-btn-cancel-class="btn btn-sm btn-default"
-                       data-title="Are you sure you want to delete ?"
-                       data-placement="left" data-singleton="true">Delete</a>
+                    <a href="{{route('bachelor.delete', $bachelor->id)}}" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Delete</a>
                 </td>
             </tr>
         @endforeach
@@ -91,6 +102,7 @@
             $('#dataTable').DataTable();
         });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
 @stop
